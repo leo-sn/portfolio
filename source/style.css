@@ -1,0 +1,219 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    background-color: white;
+}
+
+.hero {
+    background-color: #14213D;
+    height: 100vh;
+    color: white;
+    font-size: 30px;
+}
+
+.hero-area {
+    display: flex;
+    flex-direction: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 500px;
+}
+
+ul.show {
+    display: block;
+}
+
+li {
+    /* width: 200px; */
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.subtext { 
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    background-color: #FCA311; 
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #FDC05D;
+}
+
+.button:active {
+    background-color: #C2C2C2;
+    color: #808080;
+}
+
+.socials {
+    padding-bottom: 100px;
+}
+
+.logo {
+    height: 80px;
+    margin: 10px;
+}
+
+.social { 
+    margin: 20px;
+}
+
+.sub-section-aboutme {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    background-color: #ADADAD;
+}
+
+.sub-section-projects {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot { 
+    width: 300px;
+    border-radius: 150px;
+    margin: 10px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.project-card {
+    width: 200px;
+    height: 500px; 
+    box-shadow: 5px 5px 20px rgb(199, 197, 197);
+    margin: 10px;
+}
+
+div .project-card {
+    border-radius: 20px;
+}
+
+.project-container { 
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #FCA311;
+}
+
+a { 
+    text-decoration: none;
+    color:white;
+}
+
+.hamburger {
+    display:none;
+}
+
+.hamburger:focus {
+    outline:0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display:block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 50px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: #182749;
+        margin: 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #182749;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
